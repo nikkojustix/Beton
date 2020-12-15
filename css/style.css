@@ -438,3 +438,62 @@ body {
 .form__checkbox:focus:checked + .checkmark {
   background-image: url(../images/checkbox-on-outline.svg);
 }
+
+.clients__inner {
+  padding: 150px 0;
+}
+
+.clients__items {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.map {
+  background-image: url(../images/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.map__inner {
+  padding-top: 150px;
+  padding-bottom: 111px;
+  padding-left: 112px;
+}
+
+.map__content {
+  max-width: 385px;
+  background-color: #fff;
+  padding-top: 43px;
+  padding-bottom: 49px;
+  padding-left: 45px;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list__item {
+  position: relative;
+  margin-bottom: 15px;
+  margin-left: 24px;
+}
+
+.contact-list__item::before {
+  content: url(../images/li-line.svg);
+  position: absolute;
+  top: -5px;
+  left: -24px;
+}
+
+.contact__link {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333;
+}

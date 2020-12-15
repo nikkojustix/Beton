@@ -402,6 +402,7 @@ body {
 .consent {
   margin-left: 25px;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .form__checkbox {
@@ -418,7 +419,6 @@ body {
   height: 16px;
   background-image: url(../images/checkbox.svg);
   background-repeat: no-repeat;
-  background-size: cover;
   margin-left: -25px;
   margin-top: 2px;
 }
@@ -428,5 +428,13 @@ body {
 }
 
 .form__checkbox:focus + .checkmark {
-  box-shadow: 0 1px 10px 1px #333;
+  width: 19px;
+  height: 20px;
+  margin-left: -27px;
+  margin-top: 0;
+  background-image: url(../images/checkbox-outline.svg);
+}
+
+.form__checkbox:focus:checked + .checkmark {
+  background-image: url(../images/checkbox-on-outline.svg);
 }

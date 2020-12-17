@@ -1,0 +1,10 @@
+@media (max-width: 1105px) {
+  .header__img {
+    width: 730px;
+    background-size: contain;
+  }
+
+  .header__call {
+    display: none;
+  }
+}
